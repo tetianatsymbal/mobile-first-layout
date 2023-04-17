@@ -19,9 +19,6 @@ body{
 h1,h2,h3,h4,h5,h6{
  margin: 0;
 }
-/* nav {
- margin: 0 auto;
-} */
 .header{
  background-color: #E74B3B;
  margin-bottom: 15px;
@@ -87,7 +84,7 @@ ul{
 }
 @media (min-width: 640px){
  .gallery__pics{
- width: 63%;
+ width: 65%;
  justify-content: space-between;
  } 
  .gallery__figures{
@@ -100,7 +97,7 @@ ul{
   width: 49%;
  }
  .gallery__menu{
-  width: 33%;
+  width: 27%;
  }
 }
 @media (min-width: 1024px){
