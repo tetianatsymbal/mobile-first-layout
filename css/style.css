@@ -97,9 +97,16 @@ ul{
 .footer__title-text{
  text-transform: uppercase;
  color: #fff;
+ font-weight: 400;
 
 }
 @media (min-width: 640px){
+ .header__inner{
+  min-height: 110px;
+ }
+ .title__text{
+  font-size: 50px;
+ }
  .gallery__pics{
   width: 67%;
  } 
@@ -114,10 +121,21 @@ ul{
   width: 49%;
  }
  .gallery__menu{
-  width: 27%;
+  width: 28%;
  }
+ .menu__list-item {
+  line-height: 20px;
+ }
+ .menu__list-item-link {
+  font-size: 18px;
 }
 @media (min-width: 1024px){
+ .header__inner, .footer__inner{
+  min-height: 145px;
+ }
+ .title__text, .footer__title-text{
+  font-size: 78px;
+ }
  .gallery__figure{
   width: 32%;
   }
@@ -125,13 +143,18 @@ ul{
   display: block;
  }
  .menu__list-item-link{
-  font-size: 15px;
+  font-size: 35px;
   font-weight: 400;
  }
  .menu__list-item{
-  margin-bottom: 6px;
-  padding: 4px 8px;
-  line-height: 20px;
-  cursor: pointer;
+  margin-bottom: 12px;
+  padding: 5px 15px;
+  line-height: 63px;
+ }
+ .gallery__pics{
+  width: 70%;
+ } 
+ .gallery__menu{
+  width: 28%;
  }
 }
