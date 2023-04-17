@@ -82,13 +82,30 @@ ul{
  margin: 0;
  padding: 0;
 }
+.footer{
+ display: none;
+ background-color: #E74B3B;
+ margin-top: 20px;
+}
+.footer__inner{
+ min-height: 80px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin: 0 auto;
+}
+.footer__title-text{
+ text-transform: uppercase;
+ color: #fff;
+
+}
 @media (min-width: 640px){
  .gallery__pics{
- width: 65%;
- justify-content: space-between;
+  width: 67%;
  } 
  .gallery__figures{
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
@@ -101,5 +118,20 @@ ul{
  }
 }
 @media (min-width: 1024px){
-
+ .gallery__figure{
+  width: 32%;
+  }
+ .footer{
+  display: block;
+ }
+ .menu__list-item-link{
+  font-size: 15px;
+  font-weight: 400;
+ }
+ .menu__list-item{
+  margin-bottom: 6px;
+  padding: 4px 8px;
+  line-height: 20px;
+  cursor: pointer;
+ }
 }
